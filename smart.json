@@ -1,0 +1,11 @@
+{
+  "name": "chatterbox",
+  "description": "A smart package that provides user-to-user chatting system like facebook messages.",
+  "homepage": "https://github.com/geekyme/meteor-chatterbox",
+  "author": "Shawn Lim (https://github.com/geekyme)",
+  "version": "0.1.0",
+  "git": "https://github.com/geekyme/meteor-chatterbox.git",
+  "packages": {
+    "jade": {}
+  }
+}
