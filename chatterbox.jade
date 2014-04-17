@@ -1,3 +1,8 @@
 template(name="userList")
 	.user-list
-		h4 Testing user list
+		h4 All users
+		.all-users
+			+each users
+				.user-unit
+					a {{username}}
+					span.online-status {{onlineStatus}}
