@@ -6,7 +6,13 @@ template(name="chatterbox")
 			| {{> conversations}}
 
 template(name="userList")
-	h4 Testing user list
+	h4 All users
+		.all-users
+			each users
+				.user-unit
+					a {{username}}
+					span.online-status {{onlineStatus}}
+
 
 template(name="conversations")
 	each conversations
@@ -17,3 +23,4 @@ template(name="conversation")
 		p Test convo
 		each messages
 			| {{> message}}
+
